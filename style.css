@@ -5,18 +5,23 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 
 }
 
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: #F05F44;
+  width: 100%;
 }
 
-h1 {
-  font-size: 3rem; 
-  color: #e2dbdb;
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;  
 }
 
 .buffer {
@@ -46,4 +51,3 @@ h1 {
 .btn-xl {
   padding: 1rem 2rem; 
 }
-
